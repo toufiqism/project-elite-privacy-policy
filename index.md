@@ -33,7 +33,7 @@ We also store from sign-in:
 ### 1.3 Device permissions
 - **Location** (`ACCESS_COARSE_LOCATION`, `ACCESS_FINE_LOCATION`) — used only to compute prayer times and Qibla direction. Coordinates are stored locally; they are sent only to the AlAdhan prayer-times API (see §2). Never sold or shared.
 - **Notifications** (`POST_NOTIFICATIONS`) — local prayer-time and habit reminders. No push notifications from our servers.
-- **Exact alarms** (`SCHEDULE_EXACT_ALARM`, `USE_EXACT_ALARM`) — required to fire prayer adhan at the precise calculated time.
+- **Exact alarms** (`SCHEDULE_EXACT_ALARM`) — required to fire prayer adhan at the precise calculated time. Runtime-granted.
 - **Boot completed** (`RECEIVE_BOOT_COMPLETED`) — re-schedule prayer alarms after device restart.
 - **Ignore battery optimizations** (`REQUEST_IGNORE_BATTERY_OPTIMIZATIONS`) — optional, lets you exclude the app so prayer alarms aren't suppressed by OEM battery savers.
 
