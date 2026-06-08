@@ -48,13 +48,11 @@ The app calls these services. Each has its own privacy policy.
 | Firebase Auth (Google) | Email, Google credential | Sign-in only |
 | Cloud Firestore (Google) | Profile + app data from §1.1 | Cloud backup so you can restore on a new device |
 | AlAdhan API (`api.aladhan.com`) | Latitude, longitude, date | Prayer-time calculation |
-| NewsAPI (`newsapi.org`) | Search query terms | Islamic news feed |
 | ExerciseDB via RapidAPI | Exercise lookup keywords | Fitness exercise database |
 | YouTube (via system browser) | Search query | "How to perform exercise" video lookup |
 
 - Firebase / Firestore: https://firebase.google.com/support/privacy
 - AlAdhan: https://aladhan.com/privacy
-- NewsAPI: https://newsapi.org/privacy
 - RapidAPI: https://rapidapi.com/privacy
 - YouTube: https://policies.google.com/privacy
 
